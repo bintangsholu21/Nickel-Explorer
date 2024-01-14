@@ -74,14 +74,15 @@ Sebuah web aplikasi untuk dapat memonitoring kendaraan yang dimiliki. Untuk dapa
 
 #### 1. Login
 
-<img src='public/assets/login.png' style="max-width:500px"></img>
+<img src='public/assets/login.png' style="max-width:400px"></img>
 
 
-Tampilan login digunakan pengguna untuk masuk ke akun dengan memasukkan email dan password yang telah didaftarkan.
+> Tampilan login digunakan pengguna untuk masuk ke akun dengan memasukkan email dan password yang telah didaftarkan.
 
 
 
 **ADMIN ACCOUNT**
+
 admin dapat membuat pemesanan kendaraan dan melakukan konfirmasi selesai pemesanan kendaraan dan dapat melihat laporan pemesanan kendaraan.
 
 * ```admin@gmail.com```
@@ -89,12 +90,14 @@ admin dapat membuat pemesanan kendaraan dan melakukan konfirmasi selesai pemesan
 
 
 **APPROVER 1 ACCOUNT**
+
 Approver1 dapat melakukan persetujuan dan penolakan pemesanan kendaraan yang telah dilakukan oleh Admin.
 * ```approver1@gmail.com```
 * ```password1```
 
 
 **APPROVER 2 ACCOUNT**
+
 Approver2 dapat melakukan persetujuan dan penolakan pemesanan kendaraan yang telah dilakukan oleh Admin.
 * ```approver2@gmail.com```
 * ```password2```
@@ -104,44 +107,48 @@ Approver2 dapat melakukan persetujuan dan penolakan pemesanan kendaraan yang tel
 
 #### 2. Dashboard
   
-<img src='public/assets/dashboard.png' style="max-width:500px"></img>
+<img src='public/assets/dashboard.png' style="max-width:400px"></img>
 
-Pada halaman dashboard ini, admin dapat melihat grafik pemakaian kendaraan yang telah disediakan oleh perusahaan. Grafik ini menampilkan jumlah pemakaian kendaraan per bulan. Admin juga dapat melihat jumlah pemesanan kendaraan yang belum disetujui dan pemesanan yang ditolak.
+> Pada halaman dashboard ini, admin dapat melihat grafik pemakaian kendaraan yang telah disediakan oleh perusahaan. Grafik ini menampilkan jumlah pemakaian kendaraan per bulan. Admin juga dapat melihat jumlah pemesanan kendaraan yang belum disetujui dan pemesanan yang ditolak.
  <br>
+
+
 
 #### 3. Daftar Pemesanan Kendaraan - Admin
 
-<img src='public/assets/pemesanan-admin.png' style="max-width:500px"></img>
+<img src='public/assets/pemesanan-admin.png' style="max-width:400px"></img>
 
-* Admin dapat melihat daftar pemesanan kendaraan yang telah dibuat. 
-* Admin dapat melakukan pencarian pemesanan kendaraan berdasarkan tanggal pemesanan, nama pegawai, dan status pemesanan.
-* Admin dapat melakukan konfirmasi pemesanan kendaraan yang telah selesai.
-* Admin dapat menambahkan pemesanan kendaraan baru.
-* Admin dapat mengunduh laporan pemesanan kendaraan dalam bentuk Excel.
+> * Admin dapat melihat daftar pemesanan kendaraan yang telah dibuat. 
+> * Admin dapat melakukan pencarian pemesanan kendaraan berdasarkan tanggal pemesanan, nama pegawai, dan status pemesanan.
+> * Admin dapat melakukan konfirmasi pemesanan kendaraan yang telah selesai.
+> * Admin dapat menambahkan pemesanan kendaraan baru.
+> * Admin dapat mengunduh laporan pemesanan kendaraan dalam bentuk Excel.
 
 <br>
 
+
+
 #### 4. Aktivitas Pemesanan Kendaraan - Admin
 
-<img src='public/assets/aktifitas-pemesanan.png' style="max-width:500px"></img>
+<img src='public/assets/aktifitas-pemesanan.png' style="max-width:400px"></img>
 
-Admin dapat melihat log aktivitas pemesanan kendaraan yang telah dibuat. 
+> Admin dapat melihat log aktivitas pemesanan kendaraan yang telah dibuat. 
 
 <br>
 
 #### 5. Persetujuan Pemesanan Kendaraan - Approver 1
 
-<img src='public/assets/pemesanan-approver1.png' style="max-width:500px"></img>
+<img src='public/assets/pemesanan-approver1.png' style="max-width:400px"></img>
 
-Approver 1 dapat melihat daftar pemesanan kendaraan yang telah dibuat. Approver 1 hanya dapat menyetujui pemesanan kendaraan dengan status pending. Approver 1 tidak dapat menyetujui pemesanan kendaraan yang telah disetujui oleh Approver 2. Approver 1 juga dapat menolak pemesanan kendaraan yang telah dibuat.
+> Approver 1 dapat melihat daftar pemesanan kendaraan yang telah dibuat. Approver 1 hanya dapat menyetujui pemesanan kendaraan dengan status pending. Approver 1 tidak dapat menyetujui pemesanan kendaraan yang telah disetujui oleh Approver 2. Approver 1 juga dapat menolak pemesanan kendaraan yang telah dibuat.
 
 <br>
 
 #### 6. Persetujuan Pemesanan Kendaraan - Approver 2
 
-<img src='public/assets/pemesanan-approver2.png' style="max-width:500px"></img>
+<img src='public/assets/pemesanan-approver2.png' style="max-width:400px"></img>
 
-Approver 2 dapat melihat daftar pemesanan kendaraan yang telah dibuat. Approver 2 hanya dapat menyetujui pemesanan kendaraan dengan status approved1. Approver 2 tidak dapat menyetujui pemesanan kendaraan dengan status pending dan rejected. Approver 2 juga dapat menolak pemesanan kendaraan yang telah dibuat.
+> Approver 2 dapat melihat daftar pemesanan kendaraan yang telah dibuat. Approver 2 hanya dapat menyetujui pemesanan kendaraan dengan status approved1. Approver 2 tidak dapat menyetujui pemesanan kendaraan dengan status pending dan rejected. Approver 2 juga dapat menolak pemesanan kendaraan yang telah dibuat.
 
 
 ## Database Version <a name="database-version"></a>
