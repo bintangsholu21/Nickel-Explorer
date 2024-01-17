@@ -39,32 +39,34 @@ Sebuah web aplikasi untuk dapat memonitoring kendaraan yang dimiliki. Untuk dapa
 **2. Switch to the repo folder**
 * ```cd fsd-sekawanmedia-test```
 
+**3. NPM Install**
+* ```npm install```
 
 **3. Install all the dependencies using composer**
 * ```composer install```
 
 
-**4. Copy the example env file and make the required configuration changes in the .env file**
+**5. Copy the example env file and make the required configuration changes in the .env file**
 * ```cp .env.example .env```
 
 
-**5. Generate a new application key**
+**6. Generate a new application key**
 
 * ``php artisan key:generate``
 
-**6. Create a new database in your MySQL database client**
+**7. Create a new database in your MySQL database client**
 * ```CREATE DATABASE fsd-sekawanmedia-test or anything you want dont forget to change .env file```
 
 
-**7. Run the database migrations**
+**8. Run the database migrations**
 * ```php artisan migrate:fresh --seed```
 
 
-**8. Start run dev**
+**9. Start run dev**
 * ```npm run dev```
 
 
-**9. Start the local development server**
+**10. Start the local development server**
 * ```php artisan serve```
 
 
